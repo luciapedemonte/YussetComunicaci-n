@@ -1,0 +1,70 @@
+div {
+    background-color: rgb(238, 229, 229);
+    color: rgb(177, 241, 182);
+    padding: 5px;
+    margin: 2px;
+    }
+    .row {
+    background-color: rgb(255, 203, 203);
+    border: 3px solid rgb(255, 184, 184);
+    margin: 10px;
+    }
+    .col {
+    background-color: rgba(255, 155, 24, 0.842);
+    border: 2px solid rgba(204, 124, 19, 0.842);
+    margin: 10px;
+    }
+    body {
+    background-color: rgb(238, 229, 229);
+    }
+
+.relinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.teal:hover{
+  transition-duration: 300ms;
+  box-shadow: 10px 10px 0px rgb(177, 241, 182);
+  transform: translateX(-5px);
+
+}
+
+.recetas{
+    font-style: normal;
+    font-display: none;
+
+}
+
+.footer{
+    flex-direction: column;    
+}
+
+body{
+    margin-left: 2.4%;
+}
+
+.tele{
+  width: 95%;
+  height: 32%;
+}
+
+.radio{
+  width: 98%;
+  height: 32%;
+}
+
+.internet{
+  width: 95%;
+  height: 50%;
+}
+
+.listas{
+  list-style: none;
+}
+
+.listas2{
+  text-align: justify;
+  padding-bottom: 0%;
+}
